@@ -6,7 +6,7 @@ function Footer () {
     return (
         <div className="footer">
             {/* <img className="footer__cprt" alt="copyright" src={copyright}> </img> */}
-            <p className="footer__copyrightText"> Copyright Vanessa 2021 </p>
+            <p className="footer__copyrightText"> Copyright Vanessa Jackson 2021 </p>
         </div>
     )
 }

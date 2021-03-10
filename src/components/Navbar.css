@@ -3,9 +3,9 @@
     flex-wrap: wrap;
     justify-content: center; 
     align-items: center;
-    background-color: #c98c4b;
+    background-color: yellow;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #ffebc6;
+    color: black;
     height: 500px;
     width: 200px;
 }

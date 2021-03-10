@@ -1,6 +1,7 @@
 import React from 'react';
+import {Router, Route} from "react-dom";
 import './App.css';
-// import {HashRouter, Route} from 'react-router-dom';
+// import {HashRouter, Route} from 'react-dom';
 
 import Header from './components/Header';
 import Navbar from './components/Navbar';
@@ -14,13 +15,7 @@ function App() {
 
         <Header />
         <Navbar />
-
-        <div className="content-section" >
-              {/* Set up relationships between the route and the content rendered when that route is active */}
-              <Route exact path="/"component={aboutMe} />
-        </div>
-
-
+          {/* <Route path="/aboutme"component={aboutMe} /> */}
         <Content />
         <Footer />
       </div>
