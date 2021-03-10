@@ -1,4 +1,10 @@
 .header {
-    background-color: red;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: #734224;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffebc6;
+    height: 75px;
     
 }
