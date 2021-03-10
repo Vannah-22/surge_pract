@@ -5,7 +5,7 @@ import './Header.css';
 function Header () {
     return (
         <div className="header">
-            this is the header
+            Jackson
         </div>
     )
 }

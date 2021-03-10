@@ -4,7 +4,9 @@ import './Content.css';
 function Content () {
     return (
         <div className="content">
-            here is some content
+            <div className="aboutMe">
+                <p className="content__bio"> {this.props.bio} </p>
+            </div>
         </div>
     )
 }
