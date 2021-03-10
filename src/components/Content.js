@@ -4,7 +4,7 @@ import './Content.css';
 function Content () {
     return (
         <div className="content">
-            this is the homepage
+            here is some content
         </div>
     )
 }

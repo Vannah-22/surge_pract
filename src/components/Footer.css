@@ -1,3 +1,9 @@
 .footer {
-    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #734224;
+    color: #ffebc6;
+    height: 75px; 
 }
