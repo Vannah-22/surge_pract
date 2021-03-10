@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import {HashRouter, Route} from 'react-router-dom';
+// import {HashRouter, Route} from 'react-router-dom';
 
 import Header from './components/Header';
 import Navbar from './components/Navbar';
-import Content from './components/Contents';
+import Content from './components/Content';
 import Footer from './components/Footer';
 
 function App() {
@@ -17,5 +17,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
