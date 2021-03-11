@@ -1,5 +1,6 @@
 import React from 'react';
-import './Professional.css'; 
+import './Professional.css';
+import Content from './Content'; 
 
 class Professional extends React.Component {
     render() {

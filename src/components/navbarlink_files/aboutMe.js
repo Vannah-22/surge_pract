@@ -1,5 +1,6 @@
 import React from 'react';
 import './aboutMe.css'; 
+import Content from './Content';
 
 class aboutMe extends React.Component {
     render() {
@@ -13,7 +14,6 @@ class aboutMe extends React.Component {
                 computer technology/cybersecurity, screenplay/storyboard writing, 
                 philosophy and social history. I like to sew in my free time."
             />
-
         )
     }
 }
