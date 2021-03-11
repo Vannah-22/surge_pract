@@ -5,7 +5,7 @@ import './App.css';
 
 import Header from './components/Header';
 import Navbar from './components/Navbar';
-  import aboutMe from './components/aboutMe';
+  import AboutMe from './components/aboutMe';
 import Content from './components/Content';
 import Footer from './components/Footer';
 
@@ -15,6 +15,7 @@ function App() {
 
         <Header />
         <Navbar />
+        
           {/* <Route path="/aboutme"component={aboutMe} /> */}
           {/* <Route path="/skillsandexperience"component={aboutMe} /> */}
           {/* <Route path="/projects"component={aboutMe} /> */}
