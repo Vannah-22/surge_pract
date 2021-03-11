@@ -5,7 +5,7 @@ function Content () {
     return (
         <div className="content">
             <div className="aboutMe">
-                {/* <p className="content__bio"> {this.props.bio} </p> */}
+                here is some text
             </div>
         </div>
     )
