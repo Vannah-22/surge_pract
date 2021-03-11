@@ -6,11 +6,11 @@ import {
   Link
 } from "react-router-dom";
 import './Navbar.css';
-import Home from './navbarlink_files/Home';
-import About from './navbarlink_files/aboutMe';
-import Skills from './navbarlink_files/Professional';
-import Projects from './navbarlink_files/Projects';
-import Contact from './navbarlink_files/Contact';
+import Home from './Home';
+import About from './aboutMe';
+import Skills from './Professional';
+import Projects from './Projects';
+import Contact from './Contact';
 
 function Navbar() {
     return (

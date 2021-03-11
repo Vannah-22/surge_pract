@@ -1,12 +1,10 @@
 import React from 'react';
-import {Router, Route} from "react-dom";
+import {HashRouter, Router, Route} from 'react-reactor-dom';
 import './App.css';
-// import {HashRouter, Route} from 'react-reactor-dom';
 
 import Header from './components/Header';
 import Navbar from './components/Navbar';
   import AboutMe from './navbarlink_files/aboutMe';
-  // import AboutMe from './navbarlink_files/aboutMe';
   // import AboutMe from './navbarlink_files/aboutMe';
   // import AboutMe from './navbarlink_files/aboutMe';
   // import AboutMe from './navbarlink_files/aboutMe';
