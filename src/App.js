@@ -5,8 +5,12 @@ import './App.css';
 
 import Header from './components/Header';
 import Navbar from './components/Navbar';
-  import AboutMe from './components/aboutMe';
-import Content from './components/Content';
+  import AboutMe from './navbarlink_files/aboutMe';
+  // import AboutMe from './navbarlink_files/aboutMe';
+  // import AboutMe from './navbarlink_files/aboutMe';
+  // import AboutMe from './navbarlink_files/aboutMe';
+  // import AboutMe from './navbarlink_files/aboutMe';
+
 import Footer from './components/Footer';
 
 function App() {

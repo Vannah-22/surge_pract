@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-// import copyright from './media/images/copyright26px.png';
+import copyright from './media/images/copyright26px.png';
 
 function Footer () {
     return (
