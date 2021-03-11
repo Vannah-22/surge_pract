@@ -4,11 +4,8 @@ import './App.css';
 
 import Header from './components/Header';
 import Navbar from './components/Navbar';
-  import AboutMe from './navbarlink_files/aboutMe';
-  // import AboutMe from './navbarlink_files/aboutMe';
-  // import AboutMe from './navbarlink_files/aboutMe';
-  // import AboutMe from './navbarlink_files/aboutMe';
-import Content from './navbarlink_files/Content';
+  import AboutMe from './components/navbarlink_files/aboutMe';
+import Content from './components/navbarlink_files/Content';
 import Footer from './components/Footer';
 
 function App() {
