@@ -1,7 +1,5 @@
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: yellow;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
 }

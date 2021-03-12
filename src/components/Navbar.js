@@ -19,43 +19,40 @@ function Navbar() {
         <div className="content--body">
           <nav>
             <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/aboutme">About</Link>
-              </li>
-              <li>
-                <Link to="/skills">Skills/Experience</Link>
-              </li>
-              <li>
-                <Link to="/projects">Projects</Link>
-              </li>
-              <li>
-                <Link to="/contact">Contact</Link>
-              </li>
+              <Link to="/">Home</Link>
+              <Link to="/aboutme">About</Link>
+              <Link to="/skills">Skills/Experience</Link>
+              <Link to="/projects">Projects</Link>
+              <Link to="/contact">Contact</Link>
             </ul>
           </nav>
+        </div>
 
-          {/* A <Switch> looks through its children <Route>s and
-              renders the first one that matches the current URL. */}
           <Switch>
             <Route path="/contact">
               <Contact />
-            </Route><Route path="/projects">
+            </Route>
+            
+            <Route path="/projects">
               <Projects/>
             </Route>
+
             <Route path="/skills">
               <Skills />
             </Route>
+
             <Route path="/aboutme">
-              <About />
+              <aboutMe/>
             </Route>
+
             <Route path="/">
+              <div className="content--homepage"> 
               <Home />
+              </div>
             </Route>
+
           </Switch>
-        </div>
+
       </Router>
       </div>
     )

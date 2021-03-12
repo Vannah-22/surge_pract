@@ -5,7 +5,7 @@ import Content from './Content';
 class Home extends React.Component {
     render() {
         return (    
-            <div className="">
+            <div className="content--homepage">
             </div>
 
         )
