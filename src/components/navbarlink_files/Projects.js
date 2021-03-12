@@ -1,6 +1,6 @@
 import React from 'react';
 import './Projects.css'; 
-import Content from './Content';
+// import Content from './Content';
 
 class Projects extends React.Component {
     render() {
