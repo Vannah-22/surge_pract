@@ -5,9 +5,9 @@ import Content from './Content';
 class Home extends React.Component {
     render() {
         return (    
-            <Content 
-                bio="Hi my name is Vanessa."
-            />
+            <div className="">
+            </div>
+
         )
     }
 }

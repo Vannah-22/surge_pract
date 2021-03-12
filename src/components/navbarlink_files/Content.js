@@ -3,11 +3,11 @@ import './Content.css';
 
 function Content () {
     return (
-        <div className="content">
-            <div className="aboutMe">
-                here is some text
+        <main className="content">
+            <div className="text">
+
             </div>
-        </div>
+        </main>
     )
 }
 export default Content;
