@@ -18,11 +18,11 @@ function Navbar() {
           <Router>
             <nav>
               <ul>
-                <li> <Link to="/">Home</Link> </li>
-                <li> <Link to="/aboutme">About</Link> </li>
-                <li> <Link to="/skills">Skills/Experience</Link> </li>
-                <li> <Link to="/projects">Projects</Link> </li>
-                <li> <Link to="/contact">Contact</Link> </li>
+                <Link to="/">Home</Link> 
+                <Link to="/aboutme">About</Link>
+                <Link to="/skills">Skills/Experience</Link> 
+                <Link to="/projects">Projects</Link> 
+                <Link to="/contact">Contact</Link> 
               </ul>
             </nav>
 
