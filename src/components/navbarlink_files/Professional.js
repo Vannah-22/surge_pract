@@ -1,14 +1,13 @@
 import React from 'react';
 import './Professional.css';
-import Content from './Content'; 
 
 class Professional extends React.Component {
     render() {
-        return (    
-            <Content 
-                work-history="text about work history"
-            />
+        return (   
+            <div className="work_history">
+                work history
 
+            </div> 
         )
     }
 }

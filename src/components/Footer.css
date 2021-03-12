@@ -8,3 +8,8 @@
     height: 75px; 
     margin-top: 401px;
 }
+
+.copyright {
+    display: block;
+    justify-self: flex-start;
+}

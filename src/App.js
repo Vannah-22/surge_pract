@@ -4,17 +4,16 @@ import './App.css';
 
 import Header from './components/Header';
 import Navbar from './components/Navbar';
-  import AboutMe from './components/navbarlink_files/aboutMe';
-import Content from './components/navbarlink_files/Content';
+  // import AboutMe from './components/navbarlink_files/aboutMe';
 import Footer from './components/Footer';
 
 function App() {
   return (
       <div className="page">
         <Header />
-        <Navbar />
-        <AboutMe />
-        <Content />
+          <div className="navbar">
+            <Navbar />
+          </div>
         <Footer />
       </div>
   
