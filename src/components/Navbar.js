@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import './Navbar.css';
 import Home from './navbarlink_files/Home';
-// import aboutMe from './navbarlink_files/aboutMe';
+import AboutMe from './navbarlink_files/AboutMe';
 import Professional from './navbarlink_files/Professional';
 import Projects from './navbarlink_files/Projects';
 import Contact from './navbarlink_files/Contact';
@@ -40,7 +40,7 @@ function Navbar() {
               </Route>
 
               <Route path="/aboutme">
-                <aboutMe />
+                <AboutMe />
               </Route>
 
               <Route exact path="/">

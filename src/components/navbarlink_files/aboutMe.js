@@ -1,8 +1,8 @@
 import React from 'react';
-import './aboutMe.css'; 
+import './AboutMe.css'; 
 // import Content from './Content';
 
-class aboutMe extends React.Component {
+class AboutMe extends React.Component {
     render() {
         return (    
             <div className="bio">
@@ -17,4 +17,4 @@ class aboutMe extends React.Component {
         )
     }
 }
-export default aboutMe;
+export default AboutMe;
