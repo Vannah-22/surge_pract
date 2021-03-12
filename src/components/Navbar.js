@@ -14,7 +14,7 @@ import Contact from './navbarlink_files/Contact';
 
 function Navbar() {
     return (
-        <div className="navbar">
+        <div>
           <Router>
             <nav>
               <ul>
@@ -40,7 +40,7 @@ function Navbar() {
               </Route>
 
               <Route path="/aboutme">
-                <aboutMe/>
+                <aboutMe />
               </Route>
 
               <Route exact path="/">

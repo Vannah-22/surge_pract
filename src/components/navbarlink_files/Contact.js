@@ -5,11 +5,10 @@ import Content from './Content';
 class Contact extends React.Component {
     render() {
         return (    
-            <Content 
-                phone="505-417-5080"
-                email="vannjackson16@gmail.com"
-            />
-
+            <div>
+                505-417-5080
+                vannjackson16@gmail.com
+            </div>
         )
     }
 }

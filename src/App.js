@@ -11,9 +11,7 @@ function App() {
   return (
       <div className="page">
         <Header />
-          <div className="navbar">
-            <Navbar />
-          </div>
+        <Navbar />
         <Footer />
       </div>
   
