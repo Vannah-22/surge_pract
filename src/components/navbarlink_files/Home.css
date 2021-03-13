@@ -1,6 +1,7 @@
 .bio {
     display: flex;
     align-items: center;
+    margin: 40px;
     padding: 20px;
     border: 2px solid #60359c;
     box-shadow: 5px 10px #341363;
