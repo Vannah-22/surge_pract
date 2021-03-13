@@ -3,6 +3,7 @@
 }
 .resume {
     padding: 10px;
+    background-color: thistle;
     border: 2px solid #60359c;
     box-shadow: 5px 10px #341363;
     border-radius: 10px;
@@ -11,4 +12,19 @@
     align-self: center;
     width: fit-content;
     height: fit-content;
+}
+
+.contactCard {
+    display: flex-inline;
+    flex-wrap: wrap-reverse;
+    padding: 10px;
+    border: 20%;
+    border-radius: 15%;
+    box-shadow: #77bfa3;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: #213b31;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    align-content: center;
 }
