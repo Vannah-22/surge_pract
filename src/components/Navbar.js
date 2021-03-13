@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import './Navbar.css';
 import Home from './navbarlink_files/Home';
-import AboutMe from './navbarlink_files/AboutMe';
+// import AboutMe from './navbarlink_files/AboutMe';
 import Professional from './navbarlink_files/Professional';
 import Projects from './navbarlink_files/Projects';
 // import Contact from './navbarlink_files/Contact';
@@ -19,7 +19,7 @@ function Navbar() {
           <Router>
             <nav className="navbar">
                 <ul className="navlinks"> <Link to="/">Home</Link> </ul>
-                <ul className="navlinks"> <Link to="/aboutme">About</Link> </ul>
+                {/* <ul className="navlinks"> <Link to="/aboutme">About</Link> </ul> */}
                 <ul className="navlinks"> <Link to="/skills">Skills/Experience</Link> </ul>
                 <ul className="navlinks"> <Link to="/projects">Projects</Link> </ul>
                 {/* <ul className="navlinks"> <Link to="/contact">Contact</Link> </ul> */}
@@ -38,9 +38,9 @@ function Navbar() {
                 <Professional />
               </Route>
 
-              <Route path="/aboutme">
+              {/* <Route path="/aboutme">
                 <AboutMe />
-              </Route>
+              </Route> */}
 
               <Route exact path="/">
                 <Home />

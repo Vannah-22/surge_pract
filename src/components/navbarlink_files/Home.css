@@ -1,0 +1,18 @@
+.bio {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #60359c;
+    box-shadow: 5px 10px #341363;
+    border-radius: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #383737;
+    background-color:thistle;
+    width: 450px;
+    height: 450px;
+}
+
+.seniorpic {
+    display: flex;
+}
