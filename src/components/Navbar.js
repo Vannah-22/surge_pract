@@ -11,19 +11,18 @@ import AboutMe from './navbarlink_files/AboutMe';
 import Professional from './navbarlink_files/Professional';
 import Projects from './navbarlink_files/Projects';
 import Contact from './navbarlink_files/Contact';
+// import bulletpoint from './media/images/ball-point-pen-24.pdf';
 
 function Navbar() {
     return (
         <div>
           <Router>
-            <nav>
-              <ul>
-                <Link to="/">Home</Link> 
-                <Link to="/aboutme">About</Link>
-                <Link to="/skills">Skills/Experience</Link> 
-                <Link to="/projects">Projects</Link> 
-                <Link to="/contact">Contact</Link> 
-              </ul>
+            <nav className="navbar">
+                <ul className="navlinks"> <Link to="/">Home</Link> </ul>
+                <ul className="navlinks"> <Link to="/aboutme">About</Link> </ul>
+                <ul className="navlinks"> <Link to="/skills">Skills/Experience</Link> </ul>
+                <ul className="navlinks"> <Link to="/projects">Projects</Link> </ul>
+                <ul className="navlinks"> <Link to="/contact">Contact</Link> </ul>
             </nav>
 
             <Switch>

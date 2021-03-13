@@ -2,12 +2,15 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    background-color: blue;
+    background-color: #77bfa3;
+    border-radius: 40px;
+    box-shadow: 5px 10px;
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
     text-decoration: bold;
     letter-spacing: 5px;
     word-spacing: 25px;
-    color: white;
+    color: #213b31;
     height: 75px;
 }
+
