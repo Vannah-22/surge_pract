@@ -1,5 +1,6 @@
 import React from 'react';
 import './AboutMe.css'; 
+// import {SeniorPic} from "./components/media/images/SeniorPic.jpg";
 // import Content from './Content';
 
 class AboutMe extends React.Component {
@@ -13,6 +14,7 @@ class AboutMe extends React.Component {
                 plan to expand my interests and further my education in formal writing, 
                 computer technology/cybersecurity, screenplay/storyboard writing, 
                 philosophy and social history. I like to sew in my free time.
+            {/* <img className="seniorpic" src={SeniorPic} alt="VVHS Senior Picture"> </img>  */}
             </div>
         )
     }

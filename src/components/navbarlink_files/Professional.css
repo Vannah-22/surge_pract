@@ -1,10 +1,11 @@
 .Document {
-    width: 750px;
+    width: 550px;
 }
 .resume {
-    border: 2px solid #6A4c93;
     padding: 10px;
-    box-shadow: 5px 10px #5b2f99;
+    border: 2px solid #60359c;
+    box-shadow: 5px 10px #341363;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-self: center;
