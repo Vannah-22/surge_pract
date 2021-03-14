@@ -6,11 +6,18 @@
     border-radius: 40px;
     box-shadow: 5px 10px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: x-large;
+    font-size: 48px;
     text-decoration: bold;
     letter-spacing: 5px;
     word-spacing: 25px;
     color: #213b31;
-    height: 75px;
+    height: 80px;
 }
+
+/* @font-face {
+    font-family: "Dancing_Script";
+    src: local("Dancing_Script"),
+      url("./Text/DancingScript.ttf") format("truetype");
+    font-weight: normal;
+} */
 

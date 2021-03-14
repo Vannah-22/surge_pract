@@ -1,9 +1,10 @@
 import React from 'react';
 import './Home.css'; 
+// import SeniorPic from './components/media/images/SeniorPic.jpg';
 
 class Home extends React.Component {
     render() {
-        return (    
+        return (  
             <div className="bio">
                 Hi my name is Vanessa. I'm a Center New Mexico Community
                 College graduate, and I've been learning computer coding and 

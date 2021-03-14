@@ -2,9 +2,9 @@
     width: 550px;
 }
 .resume {
-    padding: 10px;
+    padding: 20px 30px;
     background-color: thistle;
-    border: 2px solid #60359c;
+    border: 2px solid thistle;
     box-shadow: 5px 10px #341363;
     border-radius: 10px;
     display: flex;
@@ -13,18 +13,44 @@
     width: fit-content;
     height: fit-content;
 }
-
-.contactCard {
+.myWhy {
     display: flex-inline;
     flex-wrap: wrap-reverse;
+    justify-content: center;
+    margin: 30px;
     padding: 10px;
-    border: 20%;
-    border-radius: 15%;
-    box-shadow: #77bfa3;
+    border: 2px solid #213b31;
+    border-radius: 30px;
+    box-shadow: 5px 10px #77bfa3;
+    background-color: #213b31;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align: center;
+    align-content: center;
+    width: 650px;
+    height: 90%;
+}
+
+.contact {
+    display: flex-inline;
+    flex-wrap: wrap-reverse;
+    justify-content: left;
+    margin: 30px;
+    padding: 10px;
+    border: 2px solid #77bfa3;
+    border-radius: 30px;
+    box-shadow: 5px 10px #213b31;
+    background-color: #77bfa3;
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     color: #213b31;
     letter-spacing: 1px;
     word-spacing: 3px;
+    text-align: center;
     align-content: center;
+    width: 650px;
+    height: 90%;
 }
