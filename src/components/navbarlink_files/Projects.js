@@ -11,13 +11,13 @@ class Projects extends React.Component {
         return (    
             <div>
                 <ul> 
-                    <a href="https://github.com/Vannah-22?tab=repositories" target='_blank'>
+                    <a className="projectlinks" href="https://github.com/Vannah-22?tab=repositories" target='_blank'>
                     Check out my computer-coding projects!
                     </a> 
                 </ul>
  
                 <ul>
-                    <a href="https://github.com/Vannah-22/good_listener_Chatbot" target='blank'>
+                    <a className="projectlinks" href="https://github.com/Vannah-22/good_listener_Chatbot" target='blank'>
                     Here's my current project!
                     </a>
                 </ul>

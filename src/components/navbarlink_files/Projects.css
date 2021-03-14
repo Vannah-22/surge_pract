@@ -1,14 +1,20 @@
 .projectlinks {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    border: 2px solid #60359c;
-    box-shadow: 5px 10px #341363;
-    border-radius: 50px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    color: #383737;
-    background-color:thistle;
+    display: flex-inline;
+    justify-content: center;
+    margin: 50px;
+    padding: 10px;
     width: 100px;
     height: 100px;
+    border: 2px solid #77bfa3;
+    border-radius: 30px;
+    box-shadow: 5px 10px #213b31;
+    background-color: #77bfa3;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: #213b31;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align: center;
+    align-content: center;
+    
 }
