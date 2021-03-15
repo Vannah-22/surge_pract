@@ -20,3 +20,16 @@
     justify-self: flex-start;
     padding: 5px;
 }
+
+@media (max-width: 360px) {
+    .footer {
+        margin-top: 50px;
+        width: fit-content;
+        height: fit-content;
+        font-size: 15px;
+    }
+    .copyright {
+        size: 5px;
+    }
+        
+}

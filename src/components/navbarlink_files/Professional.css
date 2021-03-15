@@ -1,21 +1,18 @@
-.Document {
-    width: 550px;
-}
 .resume {
+    display: flex-inline;
+    justify-content: center;
+    align-self: center;
+    margin-top: 30px;
     padding: 20px 30px;
     background-color: thistle;
     border: 2px solid thistle;
     box-shadow: 5px 10px #341363;
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    width: fit-content;
-    height: fit-content;
 }
+
 .myWhy {
     display: flex-inline;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 30px;
     padding: 10px;
@@ -36,21 +33,48 @@
 
 .contact {
     display: flex-inline;
-    flex-wrap: wrap-reverse;
     justify-content: left;
-    margin: 30px;
+    margin: 10px;
     padding: 10px;
-    border: 2px solid #77bfa3;
+    /* border: 2px solid #77bfa3;
     border-radius: 30px;
     box-shadow: 5px 10px #213b31;
     background-color: #77bfa3;
-    font-size: large;
+    font-size: large; */
     font-family: 'Times New Roman', Times, serif;
     color: #213b31;
     letter-spacing: 1px;
     word-spacing: 3px;
     text-align: center;
     align-content: center;
-    width: 650px;
-    height: 90%;
+    width: fit-content;
+    height: fit-content;
+}
+
+@media (max-width: 360px){
+    .myWhy {
+        margin: 3px;
+        margin-top: 20px;
+        width: fit-content;
+        height: fit-content;
+    }
+    .Document {
+        display: flex-inline;
+        flex-direction: column;
+        align-items: center;
+    }
+    .resume {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px !important;
+        height: auto !important;
+    }
+    .contact {
+        margin: 3px;
+        margin-top: 30px;
+        width: fit-content;
+        height: fit-content;
+    }
+    
 }

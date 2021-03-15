@@ -5,7 +5,7 @@ import copyright from './media/images/copyright26px.png';
 function Footer () {
     return (
         <div className="footer">
-            <img alt="copyright" src={copyright} />
+            <img className="copyright" alt="copyright" src={copyright} />
             <p className="footer__copyrightText"> Copyright Vanessa Jackson 2021 </p>
         </div>
     )

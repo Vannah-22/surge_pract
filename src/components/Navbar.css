@@ -17,4 +17,15 @@
     font-size: 24px;
 }
 
+@media (min-width: 360px){
+    .navbar{
+        height: fit-content;
+    }
+    .navlinks{
+        text-decoration: none;
+        font-size: 100%;
+        font-size: larger;
+    }
+}
+
 /* #77bfa3 */

@@ -1,5 +1,5 @@
 .projectlinks {
-    display: flex-inline;
+    display: flex;
     justify-content: center;
     margin: 50px;
     padding: 10px;
@@ -16,5 +16,13 @@
     word-spacing: 3px;
     text-align: center;
     align-content: center;
-    
+}
+
+@media (min-width: 360px) {
+    .projectlinks {
+        margin: 3px;
+        margin-top: 20px;
+        width: fit-content;
+        height: fit-content;
+    }
 }
