@@ -3,15 +3,15 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    background-color: #77bfa3;
+    background-color: #1982c4;
     border-radius: 40px;
-    box-shadow: 5px 10px;
+    box-shadow: 5px 10px #104f77;
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
     text-decoration: bold;
     letter-spacing: 5px;
     word-spacing: 25px;
-    color: #213b31;
+    color: #08273a;
     height: 75px;
 }
 

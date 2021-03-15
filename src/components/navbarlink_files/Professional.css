@@ -1,12 +1,12 @@
 .resume {
-    display: flex-inline;
+    /* display: block; */
     justify-content: center;
     align-self: center;
     margin-top: 30px;
     padding: 20px 30px;
-    background-color: thistle;
-    border: 2px solid thistle;
-    box-shadow: 5px 10px #341363;
+    background-color: #ffca3a;
+    border: 2px solid #ffca3a;
+    box-shadow: 5px 10px #d4a31b;
     border-radius: 10px;
 }
 
